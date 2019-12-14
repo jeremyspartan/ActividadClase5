@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Actividad2.UNA.Dashboard.Objetos;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,12 @@ namespace Actividad2
         public LoginForm()
         {
             InitializeComponent();
+        }
+
+        public Usuario Usuario
+        {
+            get;
+            set;
         }
 
         private void aceptarButton_MouseClick(object sender, MouseEventArgs e)
@@ -41,8 +48,24 @@ namespace Actividad2
 
         private void aceptarButton_Click(object sender, EventArgs e)
         {
-
+            if (ValidarInformacion())
+            {
+                DialogResult = DialogResult.OK;
+                Usuario = new Usuario();
+                Usuario.Nombre = usuarioTextBox.Text;
+                Usuario.Contraseña = contraseñaTextBox.Text;
+                this.Close(); 
+            }
+            
         }
 
+        public bool ValidarInformacion()
+        {
+            if (usuarioTextBox.TextLength == 0  || contraseñaTextBox.TextLength == 0)
+            {
+                return false;
+            }
+            return true;
+        }
     }
 }

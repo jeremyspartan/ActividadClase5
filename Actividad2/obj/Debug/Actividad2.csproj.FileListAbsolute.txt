@@ -17,3 +17,4 @@ C:\Users\116500977\Documents\GitHub\ActividadClase5\Actividad2\obj\Debug\Activid
 C:\Users\116500977\Documents\GitHub\ActividadClase5\Actividad2\obj\Debug\Actividad2.csproj.GenerateResource.cache
 C:\Users\116500977\Documents\GitHub\ActividadClase5\Actividad2\obj\Debug\Actividad2.exe
 C:\Users\116500977\Documents\GitHub\ActividadClase5\Actividad2\obj\Debug\Actividad2.pdb
+C:\Users\116170584\Documents\GitHub\ActividadClase5\Actividad2\obj\Debug\Actividad2.DashboardForm.resources

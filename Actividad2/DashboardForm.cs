@@ -20,7 +20,13 @@ namespace Actividad2
         private void DashboardForm_Load(object sender, EventArgs e)
         {
             LoginForm login = new LoginForm();
-            login.ShowDialog();
+            if (login.ShowDialog() == DialogResult.OK)
+            {
+                nombreToolStripStatusLabel.Text = login.Usuario.Nombre;
+
+            }
+            else
+                this.Close();
         }
     }
 }

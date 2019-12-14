@@ -6,46 +6,43 @@ using System.Threading.Tasks;
 
 namespace Actividad2.UNA.Dashboard.Objetos
 {
-    class Usuario
+    public class Usuario
     {
+
         public string Nombre
         {
-            get => default;
-            set
-            {
-            }
+            get;
+            set;
         }
 
         public string Apellidos
         {
-            get => default;
-            set
-            {
-            }
+            get;
+            set;
         }
 
         public DateTime FechaNacimiento
         {
-            get => default;
-            set
-            {
-            }
+            get;
+            set;
         }
 
         public string Direccion
         {
-            get => default;
-            set
-            {
-            }
+            get;
+            set;
         }
 
-        public int Observaciones
+        public string Observaciones
         {
-            get => default;
-            set
-            {
-            }
+            get;
+            set;
+        }
+
+        public string Contraseña
+        {
+            get;
+            set;
         }
     }
 }

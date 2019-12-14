@@ -53,6 +53,7 @@
             this.contraseñaTextBox.Name = "contraseñaTextBox";
             this.contraseñaTextBox.Size = new System.Drawing.Size(303, 20);
             this.contraseñaTextBox.TabIndex = 1;
+            this.contraseñaTextBox.UseSystemPasswordChar = true;
             // 
             // usuarioLabel
             // 

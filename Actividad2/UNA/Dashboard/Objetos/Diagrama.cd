@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="Actividad2.UNA.Dashboard.Objetos.Usuario" Collapsed="true">
+  <Class Name="Actividad2.UNA.Dashboard.Objetos.Usuario">
     <Position X="7" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>EAAAAAAAAAAAAAAEACAAgAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>EAAAAAAAAAAAAAIEACAAgAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>UNA\Dashboard\Objetos\Usuario.cs</FileName>
     </TypeIdentifier>
   </Class>
