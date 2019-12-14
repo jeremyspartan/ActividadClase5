@@ -22,11 +22,6 @@ namespace Actividad2
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void aceptarButton_MouseClick(object sender, MouseEventArgs e)
         {
             if(usuarioTextBox.TextLength==0)
@@ -37,6 +32,16 @@ namespace Actividad2
             {
                 LoginErrorProvider.SetError(contraseñaTextBox, "Debe ingresar su contraseña");
             }
+        }
+
+        private void aceptarButton_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            
+        }
+
+        private void CancelarButton_KeyPress(object sender, KeyPressEventArgs e)
+        {
+
         }
     }
 }

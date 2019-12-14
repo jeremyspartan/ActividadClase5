@@ -85,13 +85,14 @@
             // 
             // CancelarButton
             // 
+            this.CancelarButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.CancelarButton.Location = new System.Drawing.Point(360, 173);
             this.CancelarButton.Name = "CancelarButton";
             this.CancelarButton.Size = new System.Drawing.Size(75, 23);
             this.CancelarButton.TabIndex = 5;
             this.CancelarButton.Text = "Cancelar";
             this.CancelarButton.UseVisualStyleBackColor = true;
-            this.CancelarButton.Click += new System.EventHandler(this.button1_Click);
+            this.CancelarButton.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CancelarButton_KeyPress);
             // 
             // aceptarButton
             // 
@@ -101,6 +102,7 @@
             this.aceptarButton.TabIndex = 6;
             this.aceptarButton.Text = "Aceptar";
             this.aceptarButton.UseVisualStyleBackColor = true;
+            this.aceptarButton.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.aceptarButton_KeyPress);
             this.aceptarButton.MouseClick += new System.Windows.Forms.MouseEventHandler(this.aceptarButton_MouseClick);
             // 
             // LoginErrorProvider
@@ -109,8 +111,10 @@
             // 
             // LoginForm
             // 
+            this.AcceptButton = this.aceptarButton;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.CancelButton = this.CancelarButton;
             this.ClientSize = new System.Drawing.Size(509, 253);
             this.Controls.Add(this.aceptarButton);
             this.Controls.Add(this.CancelarButton);
