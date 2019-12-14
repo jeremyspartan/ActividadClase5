@@ -91,6 +91,7 @@
             this.CancelarButton.TabIndex = 5;
             this.CancelarButton.Text = "Cancelar";
             this.CancelarButton.UseVisualStyleBackColor = true;
+            this.CancelarButton.Click += new System.EventHandler(this.aceptarButton_Click);
             this.CancelarButton.MouseClick += new System.Windows.Forms.MouseEventHandler(this.CancelarButton_MouseClick);
             // 
             // aceptarButton
