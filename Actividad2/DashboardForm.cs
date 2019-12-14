@@ -16,5 +16,11 @@ namespace Actividad2
         {
             InitializeComponent();
         }
+
+        private void DashboardForm_Load(object sender, EventArgs e)
+        {
+            LoginForm login = new LoginForm();
+            login.ShowDialog();
+        }
     }
 }
