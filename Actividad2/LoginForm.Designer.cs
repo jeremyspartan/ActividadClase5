@@ -62,7 +62,6 @@
             this.usuarioLabel.Size = new System.Drawing.Size(46, 13);
             this.usuarioLabel.TabIndex = 2;
             this.usuarioLabel.Text = "Usuario:";
-            this.usuarioLabel.Click += new System.EventHandler(this.label1_Click);
             // 
             // recoveryLinkLabel
             // 
@@ -92,7 +91,7 @@
             this.CancelarButton.TabIndex = 5;
             this.CancelarButton.Text = "Cancelar";
             this.CancelarButton.UseVisualStyleBackColor = true;
-            this.CancelarButton.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CancelarButton_KeyPress);
+            this.CancelarButton.MouseClick += new System.Windows.Forms.MouseEventHandler(this.CancelarButton_MouseClick);
             // 
             // aceptarButton
             // 
@@ -102,7 +101,7 @@
             this.aceptarButton.TabIndex = 6;
             this.aceptarButton.Text = "Aceptar";
             this.aceptarButton.UseVisualStyleBackColor = true;
-            this.aceptarButton.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.aceptarButton_KeyPress);
+            this.aceptarButton.Click += new System.EventHandler(this.aceptarButton_Click);
             this.aceptarButton.MouseClick += new System.Windows.Forms.MouseEventHandler(this.aceptarButton_MouseClick);
             // 
             // LoginErrorProvider

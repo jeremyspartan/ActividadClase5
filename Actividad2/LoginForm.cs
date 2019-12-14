@@ -17,11 +17,6 @@ namespace Actividad2
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void aceptarButton_MouseClick(object sender, MouseEventArgs e)
         {
             if(usuarioTextBox.TextLength==0)
@@ -34,14 +29,20 @@ namespace Actividad2
             }
         }
 
-        private void aceptarButton_KeyPress(object sender, KeyPressEventArgs e)
+        private void CancelarButton_Click(object sender, EventArgs e)
         {
-            
+            Application.Exit();
         }
 
-        private void CancelarButton_KeyPress(object sender, KeyPressEventArgs e)
+        private void CancelarButton_MouseClick(object sender, MouseEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void aceptarButton_Click(object sender, EventArgs e)
         {
 
         }
+
     }
 }
