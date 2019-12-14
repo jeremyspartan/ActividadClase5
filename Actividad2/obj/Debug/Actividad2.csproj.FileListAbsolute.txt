@@ -1,0 +1,9 @@
+C:\Users\116170584\Documents\GitHub\ActividadClase5\Actividad2\bin\Debug\Actividad2.exe.config
+C:\Users\116170584\Documents\GitHub\ActividadClase5\Actividad2\bin\Debug\Actividad2.exe
+C:\Users\116170584\Documents\GitHub\ActividadClase5\Actividad2\bin\Debug\Actividad2.pdb
+C:\Users\116170584\Documents\GitHub\ActividadClase5\Actividad2\obj\Debug\Actividad2.csprojAssemblyReference.cache
+C:\Users\116170584\Documents\GitHub\ActividadClase5\Actividad2\obj\Debug\Actividad2.LoginForm.resources
+C:\Users\116170584\Documents\GitHub\ActividadClase5\Actividad2\obj\Debug\Actividad2.Properties.Resources.resources
+C:\Users\116170584\Documents\GitHub\ActividadClase5\Actividad2\obj\Debug\Actividad2.csproj.GenerateResource.cache
+C:\Users\116170584\Documents\GitHub\ActividadClase5\Actividad2\obj\Debug\Actividad2.exe
+C:\Users\116170584\Documents\GitHub\ActividadClase5\Actividad2\obj\Debug\Actividad2.pdb
